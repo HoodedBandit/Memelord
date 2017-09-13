@@ -31,9 +31,9 @@ public class box
   //{
    // return
   //}
-  public double findGirth()
+  public double findGirth(double girth)
   {
-    girth = ;
+    return /*Math Here*/;
   }
   public double findLargest()
   {
@@ -44,14 +44,10 @@ public class box
     else
       return dim3;
   }
-  public double largest()
-  {largest =findLargest }
+ 
   public void printMessage()
   {
-    largest= findLargest
+    double resLargeest = findLargest();
+    findGirth(resLargest);
   }
-
- 
-  
- 
 }
